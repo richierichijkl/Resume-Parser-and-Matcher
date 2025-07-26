@@ -1,0 +1,7 @@
+prefix=/home/rc/Documents/resume_matcher/env
+includedir=${prefix}/include
+ 
+Name: XCMiscProto
+Description: XCMisc extension headers
+Version: 1.2.2
+Cflags: -I${includedir}

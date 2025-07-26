@@ -1,0 +1,13 @@
+prefix=/home/rc/Documents/resume_matcher/env
+exec_prefix=/home/rc/Documents/resume_matcher/env
+libdir=/home/rc/Documents/resume_matcher/env/lib
+sharedlibdir=/home/rc/Documents/resume_matcher/env/lib
+includedir=/home/rc/Documents/resume_matcher/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
